@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <title> Jeu de pendu</title>
+    
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 
+    <meta charset="UTF-8">
+</head>
+
+<body>
+
+    <div class="first">
+        <h1> Hangman game</h1>
+        <button  class ="play"id="buttonPlay"> Play</button></div>
+            <div>
+
+                <select name="" id="difficulty-select">
+                    <option value="easy">Easy</option>
+                    <option value="medium">Medium</option>
+                    <option value="hard">Hard</option>
+            </select>
+
+            </div>
+
+        
+            <h2  id="gameOver" ></h2>
+        
+        
+
+    <aside id="Pendu" class="notDisplayed">
+        Hangman
+        
+       <canvas id="canvas"> </canvas>
+
+
+
+
+
+    </aside>
+
+    <main id="main" class="notDisplayed">
+
+
+        <div class ="mot"id="mot"> </div>
+        <div class="content">
+            <input class="input" id="input" type="textInput" placeholder="type a letter">
+
+
+            <button onclick="checkWord()">Test</button>
+            
+        </div>
+        <div id="cptErreur"> </div>
+
+
+
+    </main>
+    <aside id="lettreTest" class="notDisplayed">
+        <div id="lettreTest"> Tested letters    <div id="arrayTest"> </div> </div>
+
+
+
+    </aside>
+
+
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>
+
+
+
+

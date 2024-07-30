@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+
+
+html,
+body {
+    background-color: rgb(255, 0, 76);
+    margin: 0;
+    padding: 10%;
+}
+
+* {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.play {
+    padding: 30px;
+    border-radius: 30px;
+    border: 0;
+    font-size: 24px;
+    width: 90%;
+
+
+}
+
+.notDisplayed {
+    display: none;
+}
+
+html {
+    padding: 0;
+    margin: 0 ;
+}
+
+body {
+    padding: 0;
+    display: grid;
+
+    grid-template: auto 1fr / 25vw 50vw 25vw;
+    /*min-height: 50vh;*/
+}
+
+h1 {
+    text-align: center;
+    grid-row: 1;
+    grid-column: 1/4;
+}
+
+#Pendu {
+    grid-row: 2;
+    grid-column: 1;
+    font-size: 36px;
+    padding: 0%;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    grid-column: 2;
+    grid-row: 2;
+    justify-content: space-evenly;
+}
+
+
+
+
+#lettreTest {
+    grid-row: 2;
+    grid-column: 3;
+    text-align: center;
+    padding: 0;
+    font-size: 36px;
+}
+#arrayTest{
+    margin-top: 25px;
+    padding-right: 5px;
+    background-color: white;
+    border-radius: 20px;
+
+}
+
+
+
+#canvas {
+
+    grid-column: 1;
+    width: 25vw;
+    min-height: 50vh;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.input {
+    margin: 20px;
+    font-size: 24px;
+    border: 0;
+    border-radius: 30px;
+    padding: 30px;
+}
+
+main button {
+    font-size: 24px;
+    border: 0;
+    border-radius: 30px;
+    padding: 30px;
+}
+
+.mot {
+    font-size: 36px;
+
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.first {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    grid-column: 2;
+}
+
+#gameOver{
+    margin-top: 20px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    grid-column: 2;
+    grid-row:2;
+    margin-left: 15px;
+
+}
+#cptErreur{
+    margin-left: 0;
+    text-align: center;
+    font-size: 36px;
+
+
+}
+
+
+canvas{
+    margin-left: 10px;
+    height: 400px;
+    width: 300px;
+}
+/*  css pour select difficulty */
+label {
+    font-size: 24px;
+    border: 0;
+    border-radius: 30px;
+    padding: 30px;
+}
+
+select {
+    font-size: 24px;
+    border: 0;
+    border-radius: 30px;
+    padding: 30px;
+}
+
